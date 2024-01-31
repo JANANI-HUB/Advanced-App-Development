@@ -1,0 +1,74 @@
+.contactback{
+  background: url(D:\Project\react-app\src\Images\img33.webp) no-repeat;
+  background-size:cover ;
+  height: 100vh;
+  width: 200%;
+}
+.formcontact{
+  width: 700px;
+  height: 480px;
+  background: rgba(227, 225, 225, 0.7); /* Adjust the alpha value for transparency */
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #f9f9f9;
+  margin: auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 20%;
+}
+.contactus{
+  margin:10px 0;
+  padding-bottom:10px;
+  width:180px;
+  color:#000000;
+  border-bottom:3px solid #000000;
+}
+.contactinp{
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',sans-serif;
+  transition:all .3s;
+  border-bottom:2px solid #272727;
+  color:#000000;
+}
+.contactinp:focus{
+  border-bottom:2px solid #000000
+}
+.conp2{
+  color:#000000;
+  font-size: 11px;
+  padding-top: 40px;
+}
+.conp:before{
+  content:attr(type);
+  display:block;
+  margin:28px 0 0;
+  font-size:14px;
+  color:#000000}
+.conbutton{
+  float:right;
+  padding:8px 12px;
+  margin:8px 0 0;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #000000;
+  background:0;
+  color:#000000;
+  cursor:pointer;
+  transition:all .3s
+}
+.conbutton:hover{
+  border:2px solid #000000;
+  background:#000000;
+  color:#fcfcfc
+}
+
+.contactinp::placeholder{
+  color:rgb(0, 0, 0);
+}
