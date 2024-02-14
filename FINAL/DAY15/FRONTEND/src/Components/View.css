@@ -1,0 +1,7 @@
+.viewuback{
+    background: url(D:\Project\react-app\src\Images\img34.webp) no-repeat;
+    background-size:cover ;
+    height: 100vh;
+    width: 198%;
+    overflow: hidden;
+  }
