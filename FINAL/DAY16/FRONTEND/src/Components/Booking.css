@@ -1,0 +1,68 @@
+
+.bookingback{
+  background: url(D:\Project\react-app\src\Images\img34.webp) no-repeat;
+  background-size:cover ;
+  height: 100vh;
+  width: 198%;
+}
+    .booking-form {
+      width: 700px;
+      height: 580px;
+      background: rgba(227, 225, 225, 0.5); /* Adjust the alpha value for transparency */
+      border-radius: 8px;
+      box-shadow: 0 0 40px -10px #f9f9f9;
+      margin: auto;
+      padding: 20px 30px;
+      max-width: calc(100vw - 40px);
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      position: relative;
+      top: 10%;
+      
+    }
+.h2book{
+  color:rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size:32px;
+}
+  .booklabel{
+    color:rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size:20px;
+  }
+      
+    
+
+    .booking-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .booking-form input,
+    .booking-form select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .booking-form button {
+      background-color: #80511c;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 50%;
+    }
+
+    .booking-form button:hover {
+      background-color: #583315;
+    }
+ 
+
